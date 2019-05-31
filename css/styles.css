@@ -1,0 +1,12 @@
+/***********FILE IMPORTS**********/
+/***************************************/
+@import url("bootstrap.css");
+/*************GENERAL*****************/
+/*************************************/
+body{
+  font-family: Courier;
+  background-color: #8F949D;
+}
+.jumbotron {
+  text-align: center;
+}
