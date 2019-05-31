@@ -3,24 +3,43 @@
   <head>
     <meta charset="utf-8">
     <title>Triangle Tracker</title>
-    <link rel="stylesheet" href="/css/bootstrap.css">
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
     <div class="container">
-      <header>
-        <h1><img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fs.pngkit.com%2Fpng%2Fsmall%2F46-469490_penrose-triangle-icon-triangle.png&imgrefurl=https%3A%2F%2Fwww.pngkit.com%2Fso%2Ftriangle-vector%2F&docid=h4brMjL1hv_ZvM&tbnid=314lAYQhMPdPiM%3A&vet=10ahUKEwi3y7Pi-8LiAhWSxoUKHaShDpoQMwi3AShdMF0..i&w=300&h=304&bih=620&biw=1366&q=triangle%20icon%20transparent&ved=0ahUKEwi3y7Pi-8LiAhWSxoUKHaShDpoQMwi3AShdMF0&iact=mrc&uact=8" alt="">Triangle Tracker</h1>
-      </header>
-      <div class="intro">
-        <p></p>
-
+      <div class="row">
+        <header>
+          <h1><img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fs.pngkit.com%2Fpng%2Fsmall%2F46-469490_penrose-triangle-icon-triangle.png&imgrefurl=https%3A%2F%2Fwww.pngkit.com%2Fso%2Ftriangle-vector%2F&docid=h4brMjL1hv_ZvM&tbnid=314lAYQhMPdPiM%3A&vet=10ahUKEwi3y7Pi-8LiAhWSxoUKHaShDpoQMwi3AShdMF0..i&w=300&h=304&bih=620&biw=1366&q=triangle%20icon%20transparent&ved=0ahUKEwi3y7Pi-8LiAhWSxoUKHaShDpoQMwi3AShdMF0&iact=mrc&uact=8" alt="">Triangle Tracker</h1>
+          <p>This calculator will determine what triangle you have made depending on the integer values in the input fields.</p>
+        </header>
       </div>
+      <div class="row">
+        <div class="col">
+          <div class="jumbotron">
+            <form class="Triangle_Inputs" method="post">
+              Enter the triangle values below:
+              <h2>Side 1: </h2>
+              <input type="integer" id="side1" name="side1" value=""><p>
+              <h2>Side 2: </h2>
+              <input type="integer" id="side2" name="side2" value="">
+              <h2>Side 3:</h2>
+              <input type="integer" id="side3" name="side3" value="">
+              <button type="button" name="Submit" onClick="tracker()">Submit</button>
+            </form>
 
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="<col-md-6>">
+          <div class="jumbotron">
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="jumbotron">
-      
+    <script src="js/scripts.js">
 
-    </div>
-
+    </script>
   </body>
 </html>
