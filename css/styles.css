@@ -6,6 +6,20 @@
 body{
   background-color: #8F949D;
 }
+button {
+  border-radius: 10px;
+  background-color: gray ;
+  font-weight: bold;
+}
+.p13 {
+  font-size: 13px
+}
+.p24 {
+  font-size: 24px
+}
+.p20 {
+  font-size: 20px
+}
 .jumbotron {
   text-align: center;
 }
