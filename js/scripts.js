@@ -9,7 +9,7 @@ function tracker() {
   alert("isosceles");
   }else if(sideA!=sideB && sideB!=sideC && sideA!=sideC){
   alert("scalene");
-  }else if (if(sideA + sideB >sideC &&sideA + sideC >sideB &&sideC + sideB >sideA) {
+  }else if(sideA + sideB >sideC &&sideA + sideC >sideB &&sideC + sideB >sideA){
   alert("Not a triangle");
-}
+  }
 }
