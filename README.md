@@ -14,6 +14,12 @@ Triangle Tracker takes the lengths of three sides and determines if they form a 
 * java script
 * bootstrap
 
+## Behavior Driven Development
+* The website returns the error message "Not Triangular In Shape" when the user enters values that do not reflect a triangle.
+* The website returns the message "The triangle is Equilateral" when a user enters equal values.
+* The website returns the message "The triangle is Isosceles" when the user enters values that comprises information matching up to an Isosceles triangle.
+* The website returns the message "The triangle is Scalene" when the user enters three unequal values.
+
 ## Support and contact details
 if any issues are encountered contact:
 daviemumo37@gmail.com
