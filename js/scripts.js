@@ -2,13 +2,14 @@ function tracker() {
   var sideA = parseInt(document.getElementById('side1'));
   var sideB = parseInt(document.getElementById('side2'));
   var sideC = parseInt(document.getElementById('side3'));
-  if(sideA ===sideB && sideB===sideC){
-  alert("Equilateral");
-}else if((sideA===sideB && sideB!==sideC ) || (sideA!==sideB && sideC===sideA) || (sideC===sideB && sideC!=sideA)){
+  if(sideA + sideB >sideC &&sideA + sideC >sideB &&sideC + sideB >sideA){
+  if(sideA===sideB && sideB===sideC){
+  alert("equilateral");
+  }else if(sideA===sideB || sideA===sideC || sideB===sideC){
   alert("isosceles");
-}else if(sideA!==sideB && sideB!==sideC && sideC!==sideA){
+  }else if(sideA!=sideB && sideB!=sideC && sideA!=sideC){
   alert("scalene");
-  }else if(sideA >= (sideB+sideC) || sideC >= (sideB+sideA) || sideB >= (sideA+sideC)){
-  alert("No triangle");
-  }
+  }else{
+  alert("Not a triangle")
+ }
 }
