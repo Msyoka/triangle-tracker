@@ -15,6 +15,8 @@ Triangle Tracker takes the lengths of three sides and determines if they form a 
 * bootstrap
 
 ## Support and contact details
-{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}
+if any issues are encountered contact:
+daviemumo37@gmail.com
+
 ### License
 Copyright (c) {2019} **{David Mumo}**
