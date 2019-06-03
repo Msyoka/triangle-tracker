@@ -4,7 +4,10 @@
 /*************GENERAL*****************/
 /*************************************/
 body{
-  background-color: #8F949D;
+  background-image: url("../images/back.jpg");
+}
+header {
+  color: white;
 }
 button {
   border-radius: 10px;
@@ -26,5 +29,5 @@ button {
 footer {
   background-color: white;
   text-align: center;
-  
+
 }
